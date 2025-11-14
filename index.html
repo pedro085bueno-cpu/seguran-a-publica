@@ -1,33 +1,145 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>TinyUSB</title>
-    <script src="serial.js"></script>
-    <script src="application.js"></script>
-    <link rel="stylesheet" href="application.css">
-  </head>
-  <body>
-    <div class="main-content">
-      <h1>TinyUSB - WebUSB Serial Example</h1>
-      <div class="connect-container">
-        <button id="connect" class="button black">Connect</button>
-        <span id="status"></span>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Segurança Pública: Desafios e Soluções</title>
+  <style>
+    body {
+      background: #e9e9e9;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .wrapper {
+      max-width: 950px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 32px 28px;
+      border-radius: 8px;
+      box-shadow: 0 4px 16px #ccc;
+    }
+    header {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    header h1 {
+      color: #06729f;
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      color: #444;
+      font-size: 1.2em;
+    }
+    section {
+      margin-bottom: 36px;
+    }
+    h2 {
+      color: #06729f;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 6px;
+      margin-bottom: 10px;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      margin: 16px auto;
+      border-radius: 6px;
+    }
+    ul {
+      margin: 14px 0 14px 22px;
+      color: #333;
+      font-size: 1em;
+    }
+    .highlight {
+      background: #dbeefa;
+      padding: 10px;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      background: #06729f;
+      color: #fff;
+      padding: 14px 0;
+      margin-top: 32px;
+      border-radius: 0 0 8px 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1>Segurança Pública no Brasil</h1>
+      <p>Análise detalhada dos problemas, estratégias e participação cidadã</p>
+      <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=950&q=80" alt="Viatura policial" />
+    </header>
+
+    <section>
+      <h2>O que é Segurança Pública?</h2>
+      <p>
+        Segurança pública é um conjunto de ações e políticas voltadas para proteger a sociedade contra crimes, violência, acidentes e situações de risco. Envolve prevenção, repressão e assistência às vítimas.
+      </p>
+      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=950&q=80" alt="Câmeras de vigilância" />
+    </section>
+
+    <section>
+      <h2>Problemas Atuais</h2>
+      <ul>
+        <li>Criminalidade urbana (assaltos, furtos, roubos)</li>
+        <li>Violência doméstica</li>
+        <li>Tráfico de drogas</li>
+        <li>Baixa sensação de segurança da população</li>
+        <li>Superlotação carcerária</li>
+        <li>Desigualdade social</li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=950&q=80" alt="Patrulha policial" />
+    </section>
+
+    <section>
+      <h2>Estratégias de Combate</h2>
+      <ul>
+        <li>Instalação de câmeras de monitoramento</li>
+        <li>Aumento do efetivo policial</li>
+        <li>Projetos sociais para jovens</li>
+        <li>Campanhas educativas contra violência</li>
+        <li>Reforço na fiscalização de áreas críticas</li>
+        <li>Integração entre polícias e comunidade</li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?auto=format&fit=crop&w=950&q=80" alt="Monitoramento urbano" />
+    </section>
+
+    <section>
+      <h2>Resultados Obtidos</h2>
+      <div class="highlight">
+        <strong>Exemplos de avanços recentes:</strong>
+        <ul>
+          <li>Queda nos índices de furto em bairros monitorados</li>
+          <li>Melhora no atendimento às vítimas de violência</li>
+          <li>Maior participação comunitária</li>
+          <li>Respostas mais rápidas a emergências</li>
+        </ul>
       </div>
-      <div class="container">
-        <div class="sender">
-          <div class="lines-header">Sender</div>
-          <div class="lines-body">
-            <div id="sender_lines" class="lines"></div>
-            <input id="command_line" class="command-line" placeholder="Start typing ...." />
-          </div>
-        </div>
-        <div class="receiver">
-          <div class="lines-header">Receiver</div>
-          <div class="lines-body">
-            <div id="receiver_lines" class="lines"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+      <img src="https://images.unsplash.com/photo-1495121605193-b116b5b09e31?auto=format&fit=crop&w=950&q=80" alt="Comunidade ativa na segurança" />
+    </section>
+
+    <section>
+      <h2>Papel do Cidadão</h2>
+      <ul>
+        <li>Denunciar atos ilícitos</li>
+        <li>Apoiar campanhas educativas</li>
+        <li>Utilizar aplicativos de denúncia</li>
+        <li>Valorizar o respeito às leis</li>
+        <li>Participar de conselhos comunitários</li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=950&q=80" alt="Engajamento cidadão" />
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 - Informações sobre Segurança Pública no Brasil
+  </footer>
+
+</body>
 </html>
